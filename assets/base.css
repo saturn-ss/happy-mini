@@ -48,7 +48,7 @@
   --shadow-visible: var(--blog-card-shadow-visible);
   --image-padding: var(--blog-card-image-padding);
   --text-alignment: var(--blog-card-text-alignment);
-}
+} 
 
 .contains-content-container,
 .content-container {
