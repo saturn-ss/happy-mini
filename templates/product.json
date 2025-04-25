@@ -239,12 +239,30 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1745581747dbbec9fe": {
+      "type": "apps",
+      "blocks": {
+        "junip_junip_product_review_fhntVm": {
+          "type": "shopify://apps/junip/blocks/junip-product-review/dc14f5a8-ed15-41b1-ad08-cfba23f9789b",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "junip_junip_product_review_fhntVm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "1745581747dbbec9fe"
   ]
 }
